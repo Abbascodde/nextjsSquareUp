@@ -2,59 +2,55 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Work() {
-  const works = [
+  const workItems = [
     {
-      image: '/imge/Project1.png',
-      title: 'Project One',
-      description: 'A comprehensive digital solution that transforms business processes.',
-      link: '#'
+      icon: '/imge/Icon-3.png',
+      title: 'Expertise',
+      description: 'Our team consists of highly skilled professionals who have a deep understanding of the digital landscape. We stay updated with the latest industry trends and best practices to deliver cutting-edge solutions.'
     },
     {
-      image: '/imge/Project2.png',
-      title: 'Project Two',
-      description: 'An innovative mobile application that revolutionizes user experience.',
-      link: '#'
+      icon: '/imge/Icon-4.png',
+      title: 'Client-Centric Approach',
+      description: 'We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, and tailor our services to meet your specific requirements. Your success is our success.'
     },
     {
-      image: '/imge/Project3.png',
-      title: 'Project Three',
-      description: 'A cutting-edge web platform designed for seamless collaboration.',
-      link: '#'
+      icon: '/imge/Icon-5.png',
+      title: 'Result-Driven Solutions',
+      description: 'Our primary focus is on delivering results. We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, and provide a competitive advantage.'
+    },
+    {
+      icon: '/imge/Icon -6.png',
+      title: 'Long-Term Partnership',
+      description: 'We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.'
     }
   ];
 
   return (
-    <section id="work" className="bg-[#1E1E1E] py-16">
+    <section id="work" className="work-section text-white py-10 bg-[#1E1E1E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">Our Featured Works</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {works.map((work, index) => (
-            <div 
-              key={index} 
-              className="work-card transition-transform duration-300 hover:scale-105"
-            >
-              <div className="bg-[#262626] rounded-lg overflow-hidden shadow-lg">
+        <h1 className="text-3xl font-bold mb-4 text-center">Why Choose SquareUp?</h1>
+        <p className="text-sm text-gray-300 mb-8 text-center">
+          Experience excellence in digital craftsmanship with our team of skilled professionals dedicated to delivering 
+          <br /> exceptional results.
+        </p>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          {workItems.map((item, index) => (
+            <div key={index} className="work-card">
+              <div className="flex items-center mb-4 gap-3">
                 <Image 
-                  src={work.image} 
-                  alt={work.title} 
-                  width={400} 
-                  height={300} 
-                  className="w-full h-48 object-cover"
+                  src={item.icon} 
+                  alt={`${item.title} Icon`} 
+                  width={48} 
+                  height={48} 
+                  className="h-12 w-12 mb-4"
                 />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-2 text-white">{work.title}</h3>
-                  <p className="text-gray-300 mb-4">{work.description}</p>
-                  <Link 
-                    href={work.link} 
-                    className="service-card-button"
-                  >
-                    View Project
-                  </Link>
-                </div>
+                <h2 className="text-2xl font-bold mb-3">{item.title}</h2>
               </div>
+              <p className="text-sm text-gray-300 mb-4">{item.description}</p>
             </div>
           ))}
         </div>

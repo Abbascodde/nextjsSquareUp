@@ -39,3 +39,53 @@ body {
     margin: 10px;  
     margin-top: 3px; 
 }
+
+
+ /* Client section styles */
+ .client-card {
+  background-color: #1E1E1E;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.client-card:hover {
+  border-color: #9EFF00;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(158, 255, 0, 0.1);
+}
+
+.client-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.client-card p {
+  color: #9BA1A6;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.client-card .profile-info h5 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.client-card .website-button {
+  background-color: transparent;
+  border: 1px solid #D8FF99;
+  color: #D8FF99;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s ease;
+}
+
+.client-card .website-button:hover {
+  background-color: #D8FF99;
+  color: #1E1E1E;
+}
