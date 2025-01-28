@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-4xl font-bold text-white mb-6">Get in Touch</h2>
-          <p className="text-gray-300 text-lg">Ready to start your project? We'd love to hear from you.</p>
+          <p className="text-gray-300 text-lg">Ready to start your project? We had love to hear from you.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
