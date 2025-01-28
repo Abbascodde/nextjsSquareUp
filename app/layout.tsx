@@ -30,9 +30,7 @@ export default function RootLayout({
       >
         <Navbar />
         <main>{children}</main>
-        <footer className="bg-[#262626] py-6 text-center">
-          <p>&copy; 2024 SquareUp. All rights reserved.</p>
-        </footer>
+        
       </body>
     </html>
   );
