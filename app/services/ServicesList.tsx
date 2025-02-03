@@ -24,7 +24,7 @@ const ServiceIcons = {
   WebDev: () => (
     <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4m0 0a3 3 0 103 3 3 3 0 00-3-3z" />
     </svg>
   ),
   MobileDev: () => (
@@ -59,8 +59,14 @@ const ServiceIcons = {
   )
 };
 
+type ServiceItem = {
+  icon: React.ComponentType;
+  title: string;
+  description: string;
+};
+
 export default function ServicesList() {
-  const designServices = [
+  const designServices: ServiceItem[] = [
     {
       icon: ServiceIcons.UxResearch,
       title: 'User Research',
@@ -78,7 +84,7 @@ export default function ServicesList() {
     }
   ];
 
-  const developmentServices = [
+  const developmentServices: ServiceItem[] = [
     {
       icon: ServiceIcons.WebDev,
       title: 'Web Development',
@@ -96,7 +102,7 @@ export default function ServicesList() {
     }
   ];
 
-  const digitalMarketingServices = [
+  const digitalMarketingServices: ServiceItem[] = [
     {
       icon: ServiceIcons.Seo,
       title: 'SEO Optimization',
@@ -114,7 +120,7 @@ export default function ServicesList() {
     }
   ];
 
-  const renderServiceSection = (title: string, description: string, services: any[]) => (
+  const renderServiceSection = (title: string, description: string, services: ServiceItem[]) => (
     <div className="mb-20">
       <div className="flex items-center gap-4 mb-8">
         <div className="h-10 w-1 bg-[#9EFF00]"></div>

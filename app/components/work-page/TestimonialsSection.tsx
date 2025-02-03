@@ -57,7 +57,7 @@ export default function TestimonialsSection() {
             What Our <span className="text-[#9EFF00]">Clients Say</span>
           </h2>
           <p className="text-gray-300 text-lg">
-            Hear from businesses we've helped transform through our solutions.
+            Hear from businesses we have helped transform through our solutions.
           </p>
         </div>
         
