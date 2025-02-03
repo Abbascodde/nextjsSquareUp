@@ -1,7 +1,7 @@
 import Hero from "@/app/components/Hero";
 import Companies from "@/app/components/Companies";
-import Services from "@/app/components/Services";
 import Work from "@/app/components/Work";
+import Service from "@/app/components/Service";
 import Clients from "@/app/components/Clients";
 import Faq from "@/app/components/Faq";
 import Contact from "@/app/components/Contact";
@@ -12,8 +12,8 @@ export default function Home() {
     <main>
       <Hero />
       <Companies />
-      <Services />
       <Work />
+      <Service />
       <Clients />
       <Faq />
       <Contact />

@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="flex items-center space-x-8 mx-8">
               {[
                 { href: "#home", label: "Home", active: true },
-                { href: "/service", label: "Services", active: false },
+                { href: "/services", label: "Services", active: false },
                 { href: "/work", label: "Work", active: false },
                 { href: "/process", label: "Process", active: false },
                 { href: "/about", label: "About", active: false },
@@ -90,8 +90,8 @@ export default function Navbar() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {[
-                { href: "#home", label: "Home" },
-                { href: "/service", label: "Services" },
+                { href: "/home", label: "Home" },
+                { href: "/services", label: "Services" },
                 { href: "/work", label: "Work" },
                 { href: "/process", label: "Process" },
                 { href: "/about", label: "About" },
