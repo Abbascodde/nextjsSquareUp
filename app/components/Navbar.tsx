@@ -18,7 +18,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-2">
             <Link href="/" className="flex items-center space-x-2">
               <Image 
-                src="/imge/Logo1.png" 
+                src="/images/Logo1.png" 
                 alt="SquareUp Logo" 
                 width={32} 
                 height={32} 
@@ -36,8 +36,8 @@ export default function Navbar() {
                 { href: "/services", label: "Services", active: false },
                 { href: "/work", label: "Work", active: false },
                 { href: "/process", label: "Process", active: false },
-                { href: "/about", label: "About", active: false },
-                { href: "/career", label: "Careers", active: false }
+                { href: "/about-us", label: "About", active: false },
+                { href: "/careers", label: "Careers", active: false }
               ].map((link) => (
                 <Link 
                   key={link.href}
@@ -94,8 +94,8 @@ export default function Navbar() {
                 { href: "/services", label: "Services" },
                 { href: "/work", label: "Work" },
                 { href: "/process", label: "Process" },
-                { href: "/about", label: "About" },
-                { href: "/career", label: "Careers" }
+                { href: "/about-us", label: "About" },
+                { href: "/careers", label: "Careers" }
               ].map((link) => (
                 <Link 
                   key={link.href}
@@ -106,13 +106,12 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <Link 
-                href="/contact"
-                className="block bg-[#9EFF00] text-[#1E1E1E] px-4 py-2 rounded-md hover:bg-[#8EEF00] transition-colors mt-4"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Contact Us
-              </Link>
+               <Link 
+                 href="/contact"
+                 className="bg-[#9EFF00] text-[#1E1E1E] px-3 py-1.5 md:px-4 md:py-2 rounded-md hover:bg-[#1E1E1E] hover:text-[#9EFF00] transition-colors text-sm"
+               >
+                 Contact Us
+               </Link>
             </div>
           </div>
         )}

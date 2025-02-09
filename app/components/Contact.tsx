@@ -20,10 +20,9 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // TODO: Implement form submission logic
+
     console.log('Form submitted:', formData);
-    // You might want to add form validation, error handling, 
-    // and actual submission to a backend service
+
   };
 
   return (
@@ -41,9 +40,9 @@ const Contact: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                  <input 
-                    type="text" 
-                    id="name" 
+                  <input
+                    type="text"
+                    id="name"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
@@ -54,9 +53,9 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                  <input 
-                    type="email" 
-                    id="email" 
+                  <input
+                    type="email"
+                    id="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
@@ -69,9 +68,9 @@ const Contact: React.FC = () => {
 
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-gray-300 mb-2">Subject</label>
-                <input 
-                  type="text" 
-                  id="subject" 
+                <input
+                  type="text"
+                  id="subject"
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
@@ -83,8 +82,8 @@ const Contact: React.FC = () => {
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                <textarea 
-                  id="message" 
+                <textarea
+                  id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
@@ -94,13 +93,13 @@ const Contact: React.FC = () => {
                   required
                 ></textarea>
               </div>
-
-              <button 
+              <button
                 type="submit"
-                className="w-full bg-[#9EFF00] text-[#1E1E1E] py-3 px-6 rounded-lg font-medium hover:bg-[#8EEF00] transition-colors duration-300"
+                className="w-full bg-[#9EFF00] text-[#1E1E1E] py-2 px-4 md:py-3 md:px-6 rounded-lg font-medium hover:bg-[#8EEF00] transition-colors duration-300 text-sm"
               >
                 Send Message
               </button>
+
             </form>
           </div>
 

@@ -12,21 +12,21 @@ interface Testimonial {
 export default function TestimonialsSection() {
   const testimonials: Testimonial[] = [
     {
-      image: '/imge/Profile (3).png',
+      image: '/images/Profile (3).png',
       name: 'Sarah Johnson',
       title: 'CEO, TechStart',
       quote: '"SquareUp transformed our digital presence completely. Their attention to detail and innovative solutions helped us achieve our goals faster than expected."',
       rating: 5
     },
     {
-      image: '/imge/Profile.png',
+      image: '/images/Profile.png',
       name: 'Michael Chen',
       title: 'Founder, InnovateLab',
       quote: '"Working with SquareUp was a game-changer for our business. Their team\'s expertise and dedication to quality delivered results beyond our expectations."',
       rating: 5
     },
     {
-      image: '/imge/Profile (1).png',
+      image: '/images/Profile (1).png',
       name: 'Emily Rodriguez',
       title: 'Marketing Director, GrowthX',
       quote: '"The team at SquareUp doesn\'t just deliver projects; they create experiences. Their innovative approach and technical expertise are unmatched."',

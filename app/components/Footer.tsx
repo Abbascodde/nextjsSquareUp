@@ -85,12 +85,12 @@ const Footer: React.FC = () => {
                   className="w-full px-4 py-3 bg-[#262626] border border-gray-700 rounded-lg focus:ring-2 focus:ring-[#9EFF00] focus:border-transparent text-white placeholder-gray-500"
                 />
               </div>
-              <button 
-                type="submit"
-                className="w-full bg-[#9EFF00] text-[#1E1E1E] py-3 px-6 rounded-lg font-medium hover:bg-[#8EEF00] transition-colors duration-300"
-              >
-                Subscribe
-              </button>
+               <button 
+                 type="submit"
+                 className="w-full bg-[#9EFF00] text-[#1E1E1E] py-2 px-4 md:py-3 md:px-6 rounded-lg font-medium hover:bg-[#8EEF00] transition-colors duration-300 text-sm"
+               >
+                 Subscribe
+               </button>
             </form>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function WorkPortfolio() {
 
   const projects: Project[] = [
     {
-      image: '/imge/Image-0027.png',
+      image: '/images/Image-0027.png',
       category: 'E-Commerce',
       title: 'Chic Boutique',
       description: 'A modern e-commerce platform with seamless shopping experience and secure payments.',
@@ -26,7 +26,7 @@ export default function WorkPortfolio() {
       year: '2024'
     },
     {
-      image: '/imge/Image (1).png',
+      image: '/images/Image (1).png',
       category: 'Mobile App',
       title: 'FitTrack Pro',
       description: 'Fitness tracking app with personalized workout plans and progress analytics.',
@@ -34,7 +34,7 @@ export default function WorkPortfolio() {
       year: '2023'
     },
     {
-      image: '/imge/Image (3).png',
+      image: '/images/Image (3).png',
       category: 'Web Platform',
       title: 'EduLearn Hub',
       description: 'Online learning platform with interactive courses and real-time collaboration.',
@@ -42,7 +42,7 @@ export default function WorkPortfolio() {
       year: '2023'
     },
     {
-      image: '/imge/Image (4).png',
+      image: '/images/Image (4).png',
       category: 'Analytics',
       title: 'MarketPro Analytics',
       description: 'Comprehensive marketing analytics dashboard with real-time data visualization and AI-powered insights.',
@@ -50,7 +50,7 @@ export default function WorkPortfolio() {
       year: '2024'
     },
     {
-      image: '/imge/Image (5).png',
+      image: '/images/Image (5).png',
       category: 'Social Media',
       title: 'ConnectHub Social',
       description: 'Next-gen social media platform with AI-powered content recommendations and real-time engagement analytics.',
@@ -58,7 +58,7 @@ export default function WorkPortfolio() {
       year: '2024'
     },
     {
-      image: '/imge/Image (6).png',
+      image: '/images/Image (6).png',
       category: 'Mobile App',
       title: 'FoodExpress',
       description: 'Smart food delivery platform with real-time tracking and AI-powered delivery optimization.',
@@ -66,7 +66,7 @@ export default function WorkPortfolio() {
       year: '2023'
     },
     {
-      image: '/imge/Image (7).png',
+      image: '/images/Image (7).png',
       category: 'Real Estate',
       title: 'PropertyFinder Pro',
       description: 'Advanced real estate platform with VR property tours and AI-powered property matching.',
@@ -74,7 +74,7 @@ export default function WorkPortfolio() {
       year: '2024'
     },
     {
-      image: '/imge/Image (8).png',
+      image: '/images/Image (8).png',
       category: 'Healthcare',
       title: 'MediCare Connect',
       description: 'Telemedicine platform with secure video consultations and electronic health records management.',
@@ -82,7 +82,7 @@ export default function WorkPortfolio() {
       year: '2023'
     },
     {
-      image: '/imge/Image (9).png',
+      image: '/images/Image (9).png',
       category: 'Education',
       title: 'SkillMaster LMS',
       description: 'Comprehensive learning management system with interactive courses and progress tracking.',
@@ -100,7 +100,7 @@ export default function WorkPortfolio() {
   return (
     <section className="py-20 bg-[#1E1E1E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header */}
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">Our <span className="text-[#9EFF00]">Portfolio</span></h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto">

@@ -5,9 +5,9 @@ import Image from 'next/image';
 
 export default function Companies() {
   const companies = [
-    { name: 'Zapier', logo: '/imge/zapier.png' },
-    { name: 'Spotify', logo: '/imge/spotify.png' },
-    { name: 'Zoom', logo: '/imge/zoom10111.png' }
+    { name: 'Zapier', logo: '/images/zapier.png' },
+    { name: 'Spotify', logo: '/images/spotify.png' },
+    { name: 'Zoom', logo: '/images/zoom10111.png' }
   ];
 
   return (

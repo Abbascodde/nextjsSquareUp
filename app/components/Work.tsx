@@ -6,22 +6,22 @@ import Image from 'next/image';
 export default function Work() {
   const workItems = [
     {
-      icon: '/imge/Icon-3.png',
+      icon: '/images/Icon-3.png',
       title: 'Expertise',
       description: 'Our team consists of highly skilled professionals who have a deep understanding of the digital landscape. We stay updated with the latest industry trends and best practices to deliver cutting-edge solutions.'
     },
     {
-      icon: '/imge/Icon-4.png',
+      icon: '/images/Icon-4.png',
       title: 'Client-Centric Approach',
       description: 'We prioritize our clients and their unique needs. We listen to your ideas, challenges, and goals, and tailor our services to meet your specific requirements. Your success is our success.'
     },
     {
-      icon: '/imge/Icon-5.png',
+      icon: '/images/Icon-5.png',
       title: 'Result-Driven Solutions',
       description: 'Our primary focus is on delivering results. We combine creativity and technical expertise to create digital products that drive business growth, enhance user experiences, and provide a competitive advantage.'
     },
     {
-      icon: '/imge/Icon -6.png',
+      icon: '/images/Icon -6.png',
       title: 'Long-Term Partnership',
       description: 'We value long-term relationships with our clients. We see ourselves as your digital partner, providing ongoing support, maintenance, and updates to ensure your digital products continue to thrive.'
     }

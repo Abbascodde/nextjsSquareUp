@@ -5,14 +5,14 @@ import Link from 'next/link';
 export default function VisionSection() {
   return (
     <section id="Services" className="services-section text-white py-16 bg-[#262626] relative">
-      {/* Background Pattern */}
+       
       <div className="absolute inset-0">
-        {/* Background Image */}
+        
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
-          style={{backgroundImage: "url('/imge/Text Container.png')"}}
+          style={{backgroundImage: "url('/images/Text Container.png')"}}
         ></div>
-        {/* Overlay */}
+      
         <div className="absolute inset-0 bg-black opacity-70"></div>
       </div>
 
@@ -21,7 +21,7 @@ export default function VisionSection() {
           {/* Logo */}
           <div className="mb-8">
             <Image 
-              src="/imge/Logo001.png" 
+              src="/images/Logo001.png" 
               alt="SquareUp Logo" 
               width={96} 
               height={96} 

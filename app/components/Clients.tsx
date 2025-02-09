@@ -9,42 +9,42 @@ export default function Clients() {
     {
       quote: "SquareUp has been Instrumental in Transforming our Online Presence",
       description: "Their team's expertise in web development and design resulted in a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.",
-      profileImage: "/imge/Profile.png",
+      profileImage: "/images/Profile.png",
       name: "John Smith",
       title: "CEO of Chic Boutique"
     },
     {
       quote: "Exceeded Our Expectations",
       description: "They understood our vision for a mobile app that streamlined our food delivery service. The app they delivered exceeded our expectations, and our customers love the seamless ordering experience.",
-      profileImage: "/imge/Profile (1).png",
+      profileImage: "/images/Profile (1).png",
       name: "Sarah Smith",
       title: "Founder of HungryBites"
     },
     {
       quote: "Comprehensive Booking System",
       description: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations significantly.",
-      profileImage: "/imge/Profile (2).png",
+      profileImage: "/images/Profile (2).png",
       name: "Mark Thompson",
       title: "CEO of EventMasters"
     },
     {
       quote: "Comprehensive Booking System",
       description: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations significantly.",
-      profileImage: "/imge/Profile (2).png",
+      profileImage: "/images/Profile (2).png",
       name: "Mark Thompson",
       title: "CEO of EventMasters"
     },
     {
       quote: "Comprehensive Booking System",
       description: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations significantly.",
-      profileImage: "/imge/Profile (2).png",
+      profileImage: "/images/Profile (2).png",
       name: "Mark Thompson",
       title: "CEO of EventMasters"
     },
     {
       quote: "Comprehensive Booking System",
       description: "Their attention to detail and commitment to delivering a user-friendly platform was evident throughout the project. The system has streamlined our operations significantly.",
-      profileImage: "/imge/Profile (2).png",
+      profileImage: "/images/Profile (2).png",
       name: "Mark Thompson",
       title: "CEO of EventMasters"
     }

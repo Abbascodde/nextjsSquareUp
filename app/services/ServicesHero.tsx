@@ -45,13 +45,13 @@ export default function ServicesHero() {
 
   return (
     <section className="pt-32 pb-20 bg-[#1E1E1E] lg:mt-[50px] mt-[50px] relative overflow-hidden">
-      {/* Background Pattern */}
+      
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[#9EFF00] rotate-12 transform -skew-y-12 scale-150 blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        {/* Hero Content */}
+       
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
             Transforming Ideas into
@@ -61,23 +61,32 @@ export default function ServicesHero() {
             We offer comprehensive digital solutions tailored to your needs. From web development to branding,
             we are here to help you succeed in the digital world.
           </p>
-          <div className="flex justify-center gap-6">
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
             <Link 
               href="#services-list"
-              className="bg-[#9EFF00] text-[#1E1E1E] px-8 py-3 rounded-md font-medium hover:bg-[#8EEF00] transition-colors"
+              className="inline-block text-center bg-[#9EFF00] text-[#1E1E1E] 
+              px-4 py-2 sm:px-8 sm:py-3 
+              rounded-md font-medium 
+              hover:bg-[#8EEF00] transition-colors 
+              w-full sm:w-auto text-sm sm:text-base"
             >
               Explore Services
             </Link>
             <Link 
               href="#contact"
-              className="border-2 border-[#9EFF00] text-[#9EFF00] px-8 py-3 rounded-md font-medium hover:bg-[#9EFF00] hover:text-[#1E1E1E] transition-colors"
+              className="inline-block text-center 
+              border-2 border-[#9EFF00] text-[#9EFF00] 
+              px-4 py-2 sm:px-8 sm:py-3 
+              rounded-md font-medium 
+              hover:bg-[#9EFF00] hover:text-[#1E1E1E] transition-colors 
+              w-full sm:w-auto text-sm sm:text-base"
             >
               Get in Touch
             </Link>
           </div>
         </div>
 
-        {/* Service Categories Preview */}
+    
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
           {serviceCategories.map((service, index) => (
             <div 
